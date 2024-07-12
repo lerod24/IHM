@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.3 on win32)" generated="2024-07-12T19:21:59.447452" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\rodri\Documents\Formation\Automatisation\IHM_2\tests">
+<suite id="s1-s1" name="Main" source="C:\Users\rodri\Documents\Formation\Automatisation\IHM_2\tests\main.robot">
+<kw name="Begin Web Test" owner="common" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:21:59.735347" level="INFO">Opening browser 'firefox' to base url 'about:blank'.</msg>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-12T19:21:59.730338" elapsed="8.741012"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-12T19:22:08.471350" elapsed="0.289904"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:21:59.730338" elapsed="9.030916"/>
+</kw>
+<test id="s1-s1-t1" name="voir produits disponibles" line="11">
+<kw name="Charger La Page Web" owner="PageAccueil">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:08.761254" level="INFO">Opening url 'https://www.amazon.fr/'</msg>
+<arg>https://www.amazon.fr/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-07-12T19:22:08.761254" elapsed="3.372071"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Amazon</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-07-12T19:22:12.134358" elapsed="0.135916"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:12.270274" level="INFO">Clicking element 'name=accept'.</msg>
+<arg>name=accept</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:12.270274" elapsed="0.756720"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:08.761254" elapsed="4.265740"/>
+</kw>
+<kw name="Rechercher le produit" owner="PageAccueil">
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id=twotabsearchtextbox</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:13.026994" elapsed="0.089320"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:13.119322" level="INFO">Typing text 'ps5' into text field 'id=twotabsearchtextbox'.</msg>
+<arg>id=twotabsearchtextbox</arg>
+<arg>ps5</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:13.116314" elapsed="0.318249"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>ps5</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-07-12T19:22:13.434563" elapsed="0.051943"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:13.487294" level="INFO">Clicking element 'xpath=//*[@id="nav-search-submit-button"]'.</msg>
+<arg>xpath=//*[@id="nav-search-submit-button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:13.486506" elapsed="2.019770"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>ps5</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-07-12T19:22:15.511181" elapsed="0.045291"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:13.026994" elapsed="2.529478"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:08.761254" elapsed="6.795218"/>
+</test>
+<test id="s1-s1-t2" name="Choiir son produit" line="15">
+<kw name="Choisir produit Interessant" owner="PageProduit">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:15.560006" level="INFO">Clicking link 'xpath=//*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[4]/div/div/span/div/div/div[3]/div[1]/h2/a'.</msg>
+<arg>xpath=//*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[4]/div/div/span/div/div/div[3]/div[1]/h2/a</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:15.560006" elapsed="38.421795"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Ajouter au panier</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-07-12T19:22:53.983362" elapsed="0.079230"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:15.560006" elapsed="38.502586"/>
+</kw>
+<kw name="Ajouter produit au panier" owner="PageProduit">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:54.064189" level="INFO">Clicking element 'xpath=//*[@id="add-to-cart-button"]'.</msg>
+<arg>xpath=//*[@id="add-to-cart-button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:54.064189" elapsed="0.524618"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:54.594326" level="INFO">Clicking element '//*[@id="attachSiNoCoverage"]/span/input'.</msg>
+<arg>//*[@id="attachSiNoCoverage"]/span/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:54.594326" elapsed="0.521355"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Ajouté au panier</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-07-12T19:22:55.116689" elapsed="0.144112"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:54.064099" elapsed="1.196702"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:15.558490" elapsed="39.703309"/>
+</test>
+<test id="s1-s1-t3" name="Procéder au paiement" line="19">
+<kw name="Inspecter panier" owner="panier">
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:55.276929" level="INFO">Clicking link 'xpath=//*[@id="nav-cart"]'.</msg>
+<arg>xpath=//*[@id="nav-cart"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:55.276929" elapsed="1.677129"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Votre panier</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-07-12T19:22:56.955065" elapsed="0.041347"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:55.275913" elapsed="1.721513"/>
+</kw>
+<kw name="Passer Commande" owner="panier">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-07-12T19:22:57.003438" level="INFO">Clicking element '//*[@id="sc-buy-box-ptc-button"]/span/input'.</msg>
+<arg>//*[@id="sc-buy-box-ptc-button"]/span/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-07-12T19:22:57.002486" elapsed="1.490030"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>S'identifier</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-07-12T19:22:58.493525" elapsed="0.082609"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:57.001437" elapsed="1.574697"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:55.270372" elapsed="3.306774"/>
+</test>
+<kw name="End Web Test" owner="common" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-12T19:22:58.581178" elapsed="5.044277"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:22:58.580149" elapsed="5.045306"/>
+</kw>
+<status status="PASS" start="2024-07-12T19:21:59.497917" elapsed="64.127538"/>
+</suite>
+<status status="PASS" start="2024-07-12T19:21:59.452463" elapsed="64.178007"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="Main">Tests.Main</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-12T19:21:59.502981" level="ERROR">Error in file 'C:\Users\rodri\Documents\Formation\Automatisation\IHM_2\Resources\common.robot' on line 2: Importing library 'seleniumlibrary' failed: ModuleNotFoundError: No module named 'seleniumlibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\rodri\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\rodri\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\rodri\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\rodri\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\rodri\AppData\Local\Programs\Python\Python312
+  C:\Users\rodri\AppData\Roaming\Python\Python312\site-packages
+  C:\Users\rodri\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+</errors>
+</robot>

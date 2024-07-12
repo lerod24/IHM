@@ -1,0 +1,27 @@
+1720804921754	geckodriver	INFO	Listening on 127.0.0.1:59532
+1720804924839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rodri\\AppData\\Local\\Temp\\rust_mozprofileA22DdV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1720804925512	Marionette	INFO	Marionette enabled
+1720804925659	Marionette	INFO	Listening on port 59542
+Read port: 59542
+WebDriver BiDi listening on ws://127.0.0.1:59533
+1720804925769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59533/devtools/browser/91d2cd58-f938-4b8d-971d-c00a92c19c46
+JavaScript warning: https://www.amazon.fr/, line 1979: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.fr/s?k=ps5&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3PND4L7Q5EAHE&sprefix=ps5%2Caps%2C165&ref=nb_sb_noss_1, line 7333: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 28004, MediaDecoderStateMachine #1] WARNING: Decoder=1d8deb98400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 28004, MediaDecoderStateMachine #1] WARNING: Decoder=1d8deb98400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:167
+1720804955575	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: services.settings: main/translations-models Signature verified failed. Retry from scratch
+JavaScript warning: https://www.amazon.fr/Console-PlayStation-5-Standard-Slim/dp/B0CLT54ZNZ/ref=sr_1_2_mod_primary_new?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3PND4L7Q5EAHE&dib=eyJ2IjoiMSJ9.IBqr5KnPhU-f3YA4Pj520V0ELX2AXxhDOjm9ONDf4_7s7UgihHyPbbdWkQwBnb2dNiLO7cJ1lPT_2GrqTDy74bYP9-PRUxIjSSXX6R3binI1B8gBjixGhpCIuxJI3u-aq-Q91k_gOJxIiAKDj39w0-VmUYT7Wr8lQvvqTwMRB2MD3AmimAE6YJLNdKDk80GGRzncNkeR7RkWJANaPHt7SdvrG3P3G9imSCp8U1ym3i5Fwj_bOnSGFn-ORDOrr6Qsi_c0zDOvkqGbhX2mxv3jTlfSl70cIhmhs62VCw7Ed1g.o9Cgdppgult9Ye2glQFcSeIxRNjK6YQR4VuLYomht_0&dib_tag=se&keywords=ps5&qid=1720804933&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=ps5%2Caps%2C165&sr=8-2, line 11787: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.amazon.fr/gp/cart/view.html?ref_=nav_cart, line 5585: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720804978588	Marionette	INFO	Stopped listening on port 59542
+JavaScript error: https://images-eu.ssl-images-amazon.com/images/I/8177uTcYaeL.js?AUIClients/FWCIMAssets, line 571: NS_ERROR_OUT_OF_MEMORY
+Dynamically enable window occlusion 1

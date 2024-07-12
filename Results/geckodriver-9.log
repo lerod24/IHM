@@ -1,0 +1,31 @@
+1720799626905	geckodriver	INFO	Listening on 127.0.0.1:54993
+1720799630006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54994" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rodri\\AppData\\Local\\Temp\\rust_mozprofile1MkVDQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1720799630668	Marionette	INFO	Marionette enabled
+1720799630830	Marionette	INFO	Listening on port 55005
+WebDriver BiDi listening on ws://127.0.0.1:54994
+Read port: 55005
+1720799631194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54994/devtools/browser/32ca0563-eff5-42b7-bcd8-bf6ab0caee6b
+JavaScript warning: https://www.amazon.fr/, line 1989: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.fr/s?k=ps5&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3OJQYJ2EP8CL3&sprefix=ps5%2Caps%2C372&ref=nb_sb_noss_1, line 7305: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720799640856	Marionette	INFO	Stopped listening on port 55005
+JavaScript warning: https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery, line 30: Script terminated by timeout at:
+Ea@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:30:12
+get@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:156:22
+css@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:155:233
+c.fn.css/<@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:153:377
+access@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:48:277
+c.fn.css@https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery:153:312
+g@https://m.media-amazon.com/images/I/11zcniOP91L._RC|11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,113pYUOav3L.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21ie4TXYbpL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,316wztaAjFL.js,01JHKaAu-IL.js_.js?AUIClients/AmazonUI&xGN8/t+s#786834-T1.678508-T1.984864-T1:500:519
+update@https://m.media-amazon.com/images/I/11zcniOP91L._RC|11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,113pYUOav3L.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21ie4TXYbpL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,316wztaAjFL.js,01JHKaAu-IL.js_.js?AUIClients/AmazonUI&xGN8/t+s#786834-T1.678508-T1.984864-T1:502:408
+m<@https://m.media-amazon.com/images/I/11zcniOP91L._RC|11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,113pYUOav3L.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21ie4TXYbpL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,316wztaAjFL.js,01JHKaAu-IL.js_.js?AUIClients/AmazonUI&xGN8/t+s#786834-T1.678508-T1.984864-T1:505:29
+b@https://m.media-amazon.com/images/I/11zcniOP91L._RC|11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,113pYUOav3L.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21ie4TXYbpL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,316wztaAjFL.js,01JHKaAu-IL.js_.js?AUIClients/AmazonUI&xGN8/t+s#786834-T1.678508-T1.984864-T1:504:403
+guardTime/<@https://www.amazon.fr/s/ref=nb_sb_noss_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keywords=ps5&crid=3OJQYJ2EP8CL3&sprefix=ps5%2Caps%2C372:122:69
+f</delay/k<@https://m.media-amazon.com/images/I/11zcniOP91L._RC|11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,113pYUOav3L.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21ie4TXYbpL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,316wztaAjFL.js,01JHKaAu-IL.js_.js?AUIClients/AmazonUI&xGN8/t+s#786834-T1.678508-T1.984864-T1:21:268
+M/</<@https://www.amazon.fr/s/ref=nb_sb_noss_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keywords=ps5&crid=3OJQYJ2EP8CL3&sprefix=ps5%2Caps%2C372:118:111
+f</delay/<@https://m.media-amazon.com/images/I/11zcniOP91L._RC|11Y+5x+kkTL.js,51XFQXG4llL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,01cS+tLhj4L.js,11rRjDLdAVL.js,51UOrPXYGsL.js,11nAhXzgUmL.js,11UNP9ncXuL.js,113pYUOav3L.js,11uo7qXoO3L.js,01VhK3jZdbL.js,21paGe30x-L.js,01490L6yBnL.js,512ZCVSd+aL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ktRCtOqKL.js,21ie4TXYbpL.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,316wztaAjFL.js,01JHKaAu-IL.js_.js?AUIClients/AmazonUI&xGN8/t+s#786834-T1.678508-T1.984864-T1:21:372
+
+Dynamically enable window occlusion 1

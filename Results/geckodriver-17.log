@@ -1,0 +1,16 @@
+1720800544491	geckodriver	INFO	Listening on 127.0.0.1:56977
+1720800547568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56978" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rodri\\AppData\\Local\\Temp\\rust_mozprofileIDobcO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1720800548327	Marionette	INFO	Marionette enabled
+1720800548465	Marionette	INFO	Listening on port 56985
+WebDriver BiDi listening on ws://127.0.0.1:56978
+Read port: 56985
+1720800548582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56978/devtools/browser/7fca2414-d917-45d7-8388-d973c738d1d6
+JavaScript warning: https://www.amazon.fr/, line 1979: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.fr/s?k=ps5&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=20B732WO4N759&sprefix=ps5%2Caps%2C621&ref=nb_sb_noss_1, line 7287: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.fr/Console-PlayStation-5-Standard-Slim/dp/B0CLT54ZNZ/ref=sr_1_2_mod_primary_new?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=20B732WO4N759&dib=eyJ2IjoiMSJ9.IBqr5KnPhU-f3YA4Pj520V0ELX2AXxhDOjm9ONDf4_7s7UgihHyPbbdWkQwBnb2dNiLO7cJ1lPT_2GrqTDy74bYP9-PRUxIjSSXX6R3binI1B8gBjixGhpCIuxJI3u-aq-Q91k_gOJxIiAKDj39w0-VmUYT7Wr8lQvvqTwMRB2MD3AmimAE6YJLNdKDk80GGRzncNkeR7RkWJANaPHt7SdvrG3P3G9imSCp8U1ym3i5Fwj_bOnSGFn-ORDOrr6Qs6I-yAoKdOUQGMRowLDkixNG6aFMtxBMddDv0vLaSgbw.p4d5tzrF8IgvpNydk2ELIJNzdvr5s7gWDDlTWY6zkE8&dib_tag=se&keywords=ps5&qid=1720800556&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=ps5%2Caps%2C621&sr=8-2, line 11732: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720800566934	Marionette	INFO	Stopped listening on port 56985
+Dynamically enable window occlusion 1

@@ -1,0 +1,21 @@
+1720800216686	geckodriver	INFO	Listening on 127.0.0.1:56347
+1720800219784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56348" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rodri\\AppData\\Local\\Temp\\rust_mozprofile43wnlq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1720800220561	Marionette	INFO	Marionette enabled
+1720800220710	Marionette	INFO	Listening on port 56357
+Read port: 56357
+WebDriver BiDi listening on ws://127.0.0.1:56348
+1720800220826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56348/devtools/browser/543c0a60-aead-4696-9568-d5438b1e5413
+JavaScript warning: https://www.amazon.fr/, line 1976: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.fr/s?k=ps5&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=RMI73A2RFK2A&sprefix=ps5%2Caps%2C252&ref=nb_sb_noss_1, line 7328: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720800236486	Marionette	INFO	Stopped listening on port 56357
+JavaScript warning: https://m.media-amazon.com/images/I/71Q5hfLlYnL.js, line 2: Script terminated by timeout at:
+n@https://m.media-amazon.com/images/I/71Q5hfLlYnL.js:2:107499
+@https://m.media-amazon.com/images/I/71Q5hfLlYnL.js:2:137173
+@https://m.media-amazon.com/images/I/71Q5hfLlYnL.js:2:137208
+
+Dynamically enable window occlusion 1
+JavaScript error: https://d1lxz4vuik53pc.cloudfront.net/ii/1711458108701/inner.html, line 27: TypeError: ReactDOM.hydrateRoot is not a function
